@@ -1,0 +1,102 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f4f7;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: #222;
+}
+
+section {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #444;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f5f8fa;
+}
+
+button {
+  margin-top: 10px;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 4px 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Range slider styling */
+input[type="range"] {
+  width: 180px;
+  margin-left: 10px;
+}
+input[type="range"]:focus {
+  outline: none;
+}
+label {
+  margin-right: 20px;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* Style support select dropdowns */
+select {
+  padding: 4px 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
